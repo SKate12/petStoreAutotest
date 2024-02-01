@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.PetTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-01T11:38:00" hostname="SEPHORA" time="8.253">
+  <properties/>
+  <testcase name="addNewPetTest" classname="tests.PetTest" time="3.773"/>
+  <testcase name="findPetByIdTest" classname="tests.PetTest" time="2.887"/>
+  <system-out><![CDATA[14:38:03.254 [Test worker] INFO  tests.PetTest - new pet added
+14:38:03.266 [Test worker] INFO  tests.PetTest - response status code is 200
+14:38:03.905 [Test worker] INFO  tests.PetTest - response contains pet name
+14:38:03.916 [Test worker] INFO  tests.PetTest - new pet id updated to 9223372036854775021
+14:38:03.989 [Test worker] INFO  tests.PetTest - After Test clean up starting
+14:38:05.500 [Test worker] INFO  tests.PetTest - Delete pet with id = 9223372036854775021 done
+14:38:05.501 [Test worker] INFO  tests.PetTest - After Test clean up done
+14:38:06.860 [Test worker] INFO  tests.PetTest - new pet added
+14:38:06.869 [Test worker] INFO  tests.PetTest - new pet id updated to 9223372036854775024
+14:38:08.377 [Test worker] INFO  tests.PetTest - got new pet by id
+14:38:08.378 [Test worker] INFO  tests.PetTest - response status code is 200
+14:38:08.396 [Test worker] INFO  tests.PetTest - response contains pet name
+14:38:08.399 [Test worker] INFO  tests.PetTest - After Test clean up starting
+14:38:09.829 [Test worker] INFO  tests.PetTest - Delete pet with id = 9223372036854775024 done
+14:38:09.829 [Test worker] INFO  tests.PetTest - After Test clean up done
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
